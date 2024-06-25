@@ -27,11 +27,29 @@ Click [Download Thermal Palette Transform](https://utdallas.box.com/s/mbb1idjwbt
 
 Download URL: <div><a href='https://utdallas.box.com/s/mbb1idjwbtz74o091pev7wn3fb8yhp8y'>https://utdallas.box.com/s/mbb1idjwbtz74o091pev7wn3fb8yhp8y</a> </div>
 
-It includes a zip file and a folder.
+It includes a zip file, a .yml file, and a folder.
 
 - TPT.zip 
 
 - buffalo. It is a folder that stores the testing thermal images captured by DJI drones.
+
+- environment.yml
+
+## Configure Running Environment
+
+- Install `anaconda` 
+
+- Open `Anaconda prompt` 
+
+- ```conda
+  conda env create -f environment.yml
+  ```
+
+- After runing the command above, a virtual environment `env_qt` will be created.
+
+- Use the command `conda env list` to show the folder path of `env_qt`. Suppose that the path is `D:\env_qt` 
+
+- Add `D:\env_qt\Library\bin` to the system environment variable `Path`.
 
 ## Unzip TPT.zip
 
